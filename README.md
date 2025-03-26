@@ -69,7 +69,7 @@ Specify the directory where checkpoints and logs will be saved during training.
 
 ## Example Usage
 
-To train a model using the provided parameters, you can execute the script as follows:
+To train a model using the provided parameters, you can execute `run.bash` or the script as follows:
 
 ```bash
 python train.py \

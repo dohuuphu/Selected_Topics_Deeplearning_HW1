@@ -117,7 +117,6 @@ def inference(model, dataloader, device, save_dir):
     print(f"Saved predictions to {output_csv}")
 
     # Create a zip archive containing the CSV file.
-    # folder_name = output_csv.split('/')[0]
     zip_filename = (
         f"{save_dir}/prediction.zip"
     )
