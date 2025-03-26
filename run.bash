@@ -1,0 +1,12 @@
+python train.py \
+    --train_dir /mnt/HDD1/phudh/course/selected_DL/HW1/data/train \
+    --test_dir /mnt/HDD1/phudh/course/selected_DL/HW1/data/test \
+    --val_dir /mnt/HDD1/phudh/course/selected_DL/HW1/data/val \
+    --model timm/seresnextaa101d_32x8d.sw_in12k_ft_in1k_288 \
+    --head Transformer \
+    --rs Random_Resized \
+    --aug \
+    --bz 32 \
+    --lr 0.0001 \
+    --epochs 1 \
+    --save_dir experimenet_result
