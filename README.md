@@ -2,6 +2,20 @@
 
 This README provides details on the various configurable parameters for HW1 training a deep learning model.
 
+Environment Setup
+
+Python version: 3.8.17
+
+PyTorch version: 2.0.1
+```bash
+pip install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118
+
+pip install -r requirements.txt
+```
+
+
+
+
 ## Arguments
 
 ### 1. **Data Parameters**
